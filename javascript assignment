@@ -1,0 +1,213 @@
+jeromeaineoop.js
+
+function animal(name, color, breed, price,) {
+    this.name = name;
+    this.color = color; //This  is ablue print for the objects animals 1 2 and 3
+    this.seed = breed;
+    this.price = price;
+    this.speed = function(a) { //This is a methond used to provide values that vary.
+        return this.speed + ' ' + a;
+    }
+    this.size = function(b) {
+        return this.size + ' ' + b;
+    }
+}
+let animal1 = new animal('rabbit', 'white', 'exotic', 5000,); //These are the parameters/values of the properties
+console.log(animal1);
+console.log(animal1.speed('fast'));
+console.log(animal1.size('small'));
+
+let animal2 = new animal('sheep', 'brown', 'crossbreed', 100000,);
+console.log(animal2);
+console.log(animal2.speed('slow'));
+console.log(animal2.size('medium'));
+
+let animal3 = new animal('cow', 'black-white', 'exotic', 1000000,);
+console.log(animal3);
+console.log(animal3.speed('fast'));
+console.log(animal3.size('big'));
+
+
+
+
+function car(name, color, shape, price,) {
+    this.name = name;
+    this.color = color; //This  is a blue print for the objects car 1 2 and 3
+    this.shape = shape;
+    this.price = price;
+    this.model = function(c) { //This is a methond inside object and its used to provide values that vary.
+        return this.model + ' ' + c;
+    }
+    this.size = function(d) {
+        return this.size + ' ' + d;
+    }
+}
+let car1 = new car('benz', 'black', 'sedan', 45,); //These are the parameters/values of the properties
+console.log(animal1);
+console.log(car1);
+console.log(car1.model(2015));
+console.log(car1.size('big'));
+
+let car2 = new car('bmw', 'silver', 'suv', 30,);
+console.log(car2);
+console.log(car2.model(2019));
+console.log(car2.size('big'));
+
+let car3 = new car('tesla', 'red', 'sedan', 100,);
+console.log(car3);
+console.log(car3.model(2019));
+console.log(car3.size('medium'));
+
+
+
+
+function vegetables(name, color, type, price,) {
+    this.name = name; //This  is ablue print for the objects vegetable 1 2 and 3
+    this.color = color;
+    this.type = type;
+    this.price = price;
+    this.look = function(e) { //This is amethond used to provide values that vary.
+        return this.taste + ' ' + e;
+    }
+    this.size = function(f) {
+        return this.size + ' ' + f;
+    }
+}
+let vegetable1 = new vegetable('cauliflower', 'white', 'flower', 5000,); //These are the parameters/values of the properties
+console.log(animal1);
+console.log(vegetable1);
+console.log(vegetable1.taste('delicious'));
+console.log(vegetable.size(small));
+
+let vegetable2 = vegetable('cabbage', 'green', 'leafy', 4000,);
+console.log(vegetable2);
+console.log(vegetable2.taste('delicious'));
+console.log(vegetable2.size(big));
+
+let vegetable3 = new vegetable('carrot', 'orange', 'root', 500,);
+console.log(vegetable3);
+console.log(vegetable3.taste('sweet'));
+console.log(vegetable3.size(small));
+
+
+
+
+function dog(name, size, height, colour, behaviour) {
+    this.name = name;
+    this.size = size;
+    this.height = height; //This  is ablue print for the objects dog 1 2 and 3
+    this.colour = colour;
+    this.behaviour = behaviour;
+    this.far = function(g) { //This is amethond inside object and its used to provide values that vary.
+        return this.far + ' ' + g;
+    }
+    this.strength = function(h) {
+        return this.strength + ' ' + h;
+    }
+}
+let dog1 = new dog('german shepherd', 'big', 'average', 'black', 'tough'); //These are the parameters or values of the properties
+console.log(animal1);
+console.log(dog1);
+console.log(dog1.far('smooth'));
+console.log(dog.strength('high'));
+
+let dog2 = new dog('pomeranian', 'small', 'short', 'white', 'friendly');
+console.log(dog2);
+console.log(dog2.far('spiky'));
+console.log(dog2.strength('low'));
+
+let dog3 = new dog('labrador', 'medium', 'tall', 'brown', 'friendly');
+console.log(dog3);
+console.log(dog3.far('smooth'));
+console.log(man3.strength('high'));
+
+
+
+
+function phone(name, price, color, capacity, quality) {
+    this.name = name;
+    this.price = price; //This  is a blue print for the object phone 1 2 and 3
+    this.color = color;
+    this.capacity = capacity;
+    this.quality = quality;
+    this.processing = function(i) { //This is a methond used to provide values that vary.
+        return this.processing + ' ' + i;
+    }
+    this.software = function(j) {
+        return this.software + ' ' + j;
+    }
+}
+let phone1 = new phone('samsung', 700000, 'blue', '100gb', 'good'); //These are the parameters/values of the properties
+console.log(animal);
+console.log(phone1);
+console.log(phone1.processing('fast'));
+console.log(phone1.software('adroid'));
+
+let phone2 = new phone('HTC', 500000, 'silver', '8gb', 'fairly good');
+console.log(phone1);
+console.log(phone2.processing('slow'));
+console.log(phone2.software('adroid'));
+
+let phone3 = new phone('iphone', 2000000, 'gold', '150gb', 'excellent');
+console.log(phone3);
+console.log(phone3.processing('fast'));
+console.log(phone3.software(ios));
+
+
+
+
+
+function baby(name, weight, skin, behaviour) {
+    this.name = name;
+    this.weight = weight; //This  is ablue print for the objects baby 1 2 and 3
+    this.skin = skin;
+    this.behaviour = behaviour;
+    this.stage = function(k) {
+        return this.stage + ' ' + k;
+    }
+    this.size = function(m) { //This is amethond used to provide values that vary.
+        return this.size + ' ' + m;
+    }
+}
+let babay1 = new baby('alvin', '14', 'brown', 'moody'); //These are the values of the properties
+console.log(fruit1);
+console.log(baby1);
+console.log(baby1.stage('crawling'));
+console.log(baby1.size('big'));
+
+let baby2 = new baby('kim', '15', 'chocolate', 'jolly');
+console.log(baby2);
+console.log(baby2.stage('sitting'));
+console.log(baby2.size('medium'));
+
+let baby3 = new baby('hope', '10', 'brown', 'jolly');
+console.log(baby3)
+console.log(baby3.stage('sitting'));
+console.log(baby3.size('small'));
+
+
+
+
+
+function district(name, size, tribe, region) {
+    this.name = name;
+    this.size = size; //This  is ablue print for the objects districts 1 2 & 3
+    this.tribe = tribe;
+    this.region = region;
+    this.known = function(n) { //This is a methond used to provide values that vary.
+        return this.known + ' ' + n;
+    }
+
+}
+let district1 = new district('kasese', '2724km2', 'bakojjo', 'western'); //These are the parameters/values of the properties
+console.log(fruit1);
+console.log(district1);
+console.log(district1.known('mining'));
+
+let district2 = new district('jinja', '673km2', 'basonga', 'eastern');
+console.log(district2);
+console.log(district2.known('electricity'));
+
+let district3 = new district('hoima', '3664km2', 'banyoro', 'western');
+console.log(district3);
+console.log(tree3.known('oil')); 
